@@ -1,0 +1,134 @@
+/* CSS for Personal Portfolio */
+
+html,
+body,
+header,
+nav,
+ul,
+li,
+p,
+h1,
+h2,
+img,
+iframe,
+a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #862d59;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+#nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#container {
+  max-width: 960px;
+  margin: 80px auto 0; /* Add top margin to compensate for the fixed header */
+  padding: 20px;
+}
+
+section {
+  padding-bottom: 40px;
+}
+
+h1 {
+  color: #862d59;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #194d19; /* Changed color to match the provided color */
+  margin-bottom: 10px;
+  text-align: center; /* Center the headings */
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+#intro-img img {
+  display: block;
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+#portfolio,
+#full-resume {
+  width: 80%; 
+  margin: 0 auto; 
+}
+
+.media {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center; /* Center the video and audio headings */
+}
+
+.media h2 {
+  margin-bottom: 10px;
+  text-align: center; /* Center the video and audio headings */
+}
+
+iframe {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100%; /* Ensure videos fill their container */
+}
+
+#video,
+#audio {
+  margin-bottom: 40px;
+}
