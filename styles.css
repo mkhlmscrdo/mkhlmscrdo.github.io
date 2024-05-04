@@ -110,25 +110,25 @@ iframe {
   margin: 0 auto; 
 }
 
-.media {
+/*.media {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
-  text-align: center; /* Center the video and audio headings */
+  text-align: center; 
 }
 
 .media h2 {
   margin-bottom: 10px;
-  text-align: center; /* Center the video and audio headings */
+  text-align: center; 
 }
 
 iframe {
   display: block;
   margin: 0 auto 20px;
-  width: 100%; /* Ensure videos fill their container */
+  width: 100%;
 }
 
 #video,
 #audio {
   margin-bottom: 40px;
-}
+}*/
